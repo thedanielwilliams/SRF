@@ -3,10 +3,6 @@
 		{
 			"name": "SRF",
 			"path": "."
-		},
-		{
-			"name": "SRF",
-			"path": "../../SRF"
 		}
 	],
 	"settings": {}
