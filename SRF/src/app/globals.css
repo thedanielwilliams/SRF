@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-ivory: #FAF8F4;
+  --color-evergreen: #163F38;
+  --color-ink: #1A2725;
+  --color-bronze: #B38A56;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FAF8F4;
+  color: #1A2725;
+}
+
+body {
+  background-color: #FAF8F4;
+  color: #1A2725;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Soft ambient surface gradient */
+.soft-ivory-gradient {
+  background: radial-gradient(
+      1200px circle at 85% 0%,
+      rgba(179, 138, 86, 0.07),
+      transparent 55%
+    ),
+    radial-gradient(
+      1000px circle at 10% 20%,
+      rgba(22, 63, 56, 0.05),
+      transparent 55%
+    ),
+    #FAF8F4;
+}
+
+::selection {
+  background-color: #163F38;
+  color: #F6F2E9;
+}
